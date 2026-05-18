@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Libre+Baskerville&display=swap');
+
+body{
+font-family:'Libre Baskerville',serif;
+text-align:center;
+}
+
+h1,h2,h3{
+font-family:'Fjalla One',sans-serif;
+color:#86198F;
+text-align:center;
+}
+
+.subtitle{
+font-size:20px;
+text-align:center;
+}
+
+p{
+max-width:900px;
+margin:auto;
+padding:8px;
+}
+
+nav ul{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+padding:0;
+
+list-style:none;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+color:#86198F;
+
+font-weight:bold;
+
+font-size:18px;
+
+}
+
+ul,ol{
+
+list-style-type:none;
+
+padding:0;
+
+width:fit-content;
+
+margin:auto;
+
+}
+
+table{
+
+margin:30px auto;
+
+border-collapse:collapse;
+
+}
+
+th,td{
+
+border:1px solid #86198F;
+
+padding:12px;
+
+}
+
+tr:nth-child(even){
+
+background:#FDF4FF;
+
+}
+
+img{
+
+display:block;
+
+margin:30px auto;
+
+width:800px;
+
+max-width:100%;
+
+}
